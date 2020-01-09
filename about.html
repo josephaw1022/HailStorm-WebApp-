@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>What is the Hailstorm Problem? </h1>
+    <p>
+        Take any number (literally any positive integer) : 23 , 4534 , 32 , 12 , 32, etc...
+    </p>
+    <p>
+        if X (the number) is even then, new X = (old X)/2
+    </p>
+    <p>
+        else, new X = 3*(old X) +1
+    </p>
+        .... If you keep going for any number, you will always reach 1
+    </p>
+    <h2>
+        Examples
+    </h2>
+    <p>
+        15 -> 46 -> 23 -> 70 -> 35 -> 106 -> 53 -> 160 -> 80 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 ->1
+    </p>
+    <p>
+        34 -> 17 -> 52 -> 26 -> 13 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 ->1
+
+    </p>
+
+{% endblock  %}
